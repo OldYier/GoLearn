@@ -27,19 +27,9 @@ func ThreeSum(nums []int) [][]int {
 		reB = append(reB, nums[i])
 	}
 	fmt.Printf("reB %v \n", reB)
-	for i := 0; i < len(reA); i++ {
-		for j := len(reB) - 1; j >= 0; j-- {
-			a := 0
-			if i == 2 {
-				a++
-			}
-			if j == 3 {
-				a++
-			}
-			fmt.Printf("i:%v\t", i)
-			fmt.Printf("j:%v\t", j)
-			fmt.Printf("i+j:%v\n", i+j+a)
-
+	for i := 0; i < len(nums); i++ {
+		for j := 0; j < len(reA); j++ {
+			fmt.Printf(i+)
 		}
 	}
 	return res
