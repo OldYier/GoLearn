@@ -17,19 +17,9 @@ func ThreeSum(nums []int) [][]int {
 	// 先把数组排序
 	sort.Ints(nums)
 	fmt.Printf("nums : %v\n", nums)
-	var reA []int
-	for i := 0; nums[i] < 0; i++ {
-		reA = append(reA, nums[i])
-	}
-	fmt.Printf("reA:%v\n", reA)
-	reB := []int{}
-	for i := len(nums) - 1; nums[i] >= 0; i-- {
-		reB = append(reB, nums[i])
-	}
-	fmt.Printf("reB %v \n", reB)
 	for i := 0; i < len(nums); i++ {
-		for j := 0; j < len(reA); j++ {
-			fmt.Printf(i+)
+		for j := len(nums) - 1; j > 0; j-- {
+
 		}
 	}
 	return res
