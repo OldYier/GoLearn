@@ -1,0 +1,2 @@
+go env
+set GOPROXY=https://goproxy.cn,direct
