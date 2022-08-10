@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"golearn/addsum"
+	"golearn/EveryDay"
 	"math/rand"
 	"reflect"
 	"sort"
@@ -21,8 +21,10 @@ func main() {
 	//流程控制()
 	// prMap()
 	// 指定顺序遍历map()
-	a := []int{1, -2, 3, 5, -4, -8, 5}
-	addsum.ThreeSum(a)
+	// a := []int{1, -2, 3, 5, -4, -8, 5}
+	// addsum.ThreeSum(a)
+	EveryDay.External()
+	// EveryDay.Func220810(3)
 }
 
 type user struct {
