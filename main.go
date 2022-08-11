@@ -23,8 +23,8 @@ func main() {
 	// 指定顺序遍历map()
 	// a := []int{1, -2, 3, 5, -4, -8, 5}
 	// addsum.ThreeSum(a)
-	// EveryDay.Func220808()
-	fmt.Println(EveryDay.Func220810(5))
+	EveryDay.Func220811()
+	// fmt.Println(EveryDay.Func220810(5))
 	// EveryDay.External()
 }
 
