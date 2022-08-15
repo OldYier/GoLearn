@@ -26,6 +26,7 @@ func main() {
 	// EveryDay.External()
 	// EveryDay.Func220810(3)
 	EveryDay.Func220815()
+
 }
 
 type user struct {

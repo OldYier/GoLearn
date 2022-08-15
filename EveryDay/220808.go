@@ -2,11 +2,10 @@ package EveryDay
 
 import "fmt"
 
-func Func220808() string {
+func Func220808() {
 	v := []int{1, 2, 3}
 	for i := range v {
 		v = append(v, i)
-		fmt.Printf("v:%v \t\ti :%v\n", v, i)
+		fmt.Println("V:", v, " I:", i)
 	}
-	return "success"
 }
