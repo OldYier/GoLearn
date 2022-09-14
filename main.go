@@ -25,7 +25,8 @@ func main() {
 	// addsum.ThreeSum(a)
 	// EveryDay.External()
 	// EveryDay.Func220810(3)
-	EveryDay.Func220815()
+
+	EveryDay.Func220914()
 
 }
 
