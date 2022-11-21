@@ -26,7 +26,7 @@ func main() {
 	// EveryDay.External()
 	// EveryDay.Func220810(3)
 
-	EveryDay.Func220914()
+	EveryDay.FuncMain()
 
 }
 
