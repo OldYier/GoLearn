@@ -18,7 +18,7 @@ func main() {
 	// 复数()
 	// prSlice()
 	// prUintptr()
-	//流程控制()
+	// 流程控制()
 	// prMap()
 	// 指定顺序遍历map()
 	// a := []int{1, -2, 3, 5, -4, -8, 5}
@@ -26,7 +26,7 @@ func main() {
 	// EveryDay.External()
 	// EveryDay.Func220810(3)
 
-	EveryDay.FuncMain()
+	EveryDay.Func221123G()
 
 }
 

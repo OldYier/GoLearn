@@ -30,7 +30,7 @@ func Func221121() {
 	var a interA = c
 	var b interB = c
 	fmt.Println(a.ShowA())
-	fmt.Println(b.ShowA())
+	fmt.Println(b.ShowB())
 }
 
 // 接口。一种类型实现多个接口，结构体 Work 分别实现了接口 A、B，所以接口变量 a、b 调用各自的方法 ShowA() 和 ShowB()，输出 13、23。
