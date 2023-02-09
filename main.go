@@ -23,10 +23,9 @@ func main() {
 	// 指定顺序遍历map()
 	// a := []int{1, -2, 3, 5, -4, -8, 5}
 	// addsum.ThreeSum(a)
-	// EveryDay.External()
-	// EveryDay.Func220810(3)
+	// 多变量赋值()
 
-	EveryDay.Func221123G()
+	EveryDay.Func230208()
 
 }
 
@@ -152,17 +151,17 @@ func prSlice() {
 	fmt.Printf("Append后的mSlice：%v\n", mSlice)
 }
 
-// func makeslice(et *_type, len, cap int) slice {
-// maxElements := maxSliceCap(et.size)
-// if len < 0 || uintptr(len) > maxElements {
-// 	panic(errorString("makeslice:len out of range"))
-// }
-// if cap < len || uintptr(cap) > maxElements {
-// 	panic(errorString("makeslice: cap out of range"))
-// }
-// p := mallocgc(et.size*Uintptr(cap), et, true)
-// return slice{p, len, cap}
-// }
+// Append func makeslice(et *_type, len, cap int) slice {
+//	maxElements := maxSliceCap(et.size)
+//	if len < 0 || uintptr(len) > maxElements {
+//		panic(errorString("makeslice:len out of range"))
+//	}
+//	if cap < len || uintptr(cap) > maxElements {
+//		panic(errorString("makeslice: cap out of range"))
+//	}
+//	p := mallocgc(et.size*Uintptr(cap), et, true)
+//	return slice{p, len, cap}
+//}
 func (A1 Slice2) Append(value int32) {
 	A2 := append(A1, 2)
 	fmt.Println(A1)
@@ -295,4 +294,12 @@ func 指定顺序遍历map() {
 		}
 
 	}
+}
+
+func 多变量赋值() {
+	var a int8 = 1
+	var b int8 = 2
+	var c int8 = 3
+	a, b, c = 4, c, b
+	print("a, b, c:", a, b, c)
 }

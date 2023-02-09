@@ -1,8 +1,6 @@
 package EveryDay
 
-import (
-	"fmt"
-)
+import "fmt"
 
 type interA interface {
 	ShowA() int
@@ -10,7 +8,6 @@ type interA interface {
 
 type interB interface {
 	ShowB() int
-	ShowA() int
 }
 
 type Work struct {
