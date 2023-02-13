@@ -25,7 +25,7 @@ func main() {
 	// addsum.ThreeSum(a)
 	// 多变量赋值()
 
-	EveryDay.Func230208()
+	EveryDay.Fac230213()
 
 }
 
