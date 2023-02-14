@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"golearn/EveryDay"
+	"golearn/test"
 	"math/rand"
 	"reflect"
 	"sort"
@@ -25,7 +25,8 @@ func main() {
 	// addsum.ThreeSum(a)
 	// 多变量赋值()
 
-	EveryDay.Fac230213()
+	// EveryDay.Fac230213()
+	test.Async_test()
 
 }
 
