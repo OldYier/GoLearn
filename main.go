@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"golearn/test"
+	"golearn/EveryDay"
 	"math/rand"
 	"reflect"
 	"sort"
@@ -12,6 +12,7 @@ import (
 )
 
 func main() {
+	// arr()
 	// 基础()
 	// prConst()
 	// prString()
@@ -25,8 +26,8 @@ func main() {
 	// addsum.ThreeSum(a)
 	// 多变量赋值()
 
-	// EveryDay.Fac230213()
-	test.Async_test()
+	EveryDay.Func230216()
+	// test.PrintfYhTriangle()
 
 }
 
@@ -35,6 +36,17 @@ type user struct {
 	age  int
 }
 type Slice2 []int32
+
+func arr() {
+	var arr [][]int
+	a := make([]int, 1)
+	arr = append(arr, a)
+	arr[0][0] = 1
+	arr = append(arr, []int{0})
+	fmt.Println(arr)
+	arr[0][1] = 3
+	fmt.Println(arr)
+}
 
 func 基础() {
 	var a int8 = 10

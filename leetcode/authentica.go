@@ -1,25 +1,32 @@
 package leetcode
 
 type AuthenticationManager struct {
-	tokenId     string
-	currentTime int8
-	timeToLive  int8
+	autMap map[string]int
+	time   int
 }
 
 func Constructor(timeToLive int) AuthenticationManager {
-	aut := AuthenticationManager{}
+	return AuthenticationManager{map[string]int{}, int(timeToLive)}
 }
 
 func (this *AuthenticationManager) Generate(tokenId string, currentTime int) {
-
+	this.autMap[tokenId] = currentTime
 }
 
 func (this *AuthenticationManager) Renew(tokenId string, currentTime int) {
-
+	if value, ok := this.autMap[tokenId]; ok && value+this.time > currentTime {
+		this.autMap[tokenId] = currentTime
+	}
 }
 
 func (this *AuthenticationManager) CountUnexpiredTokens(currentTime int) int {
-
+	i := 0
+	for _, t := range this.autMap {
+		if t+this.time > currentTime {
+			i++
+		}
+	}
+	return i
 }
 
 /**
